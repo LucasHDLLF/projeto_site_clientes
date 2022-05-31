@@ -11,7 +11,7 @@ body{
 	justify-content: center;
 	height: 100vh;
 	width: 100vh;
-	background: linear-gradient(45deg, #F806CC,#A91079,#570A57, #2E0249, #371B58, #4C3575, #5B4B8A, #7858A6, #A85CF9);
+	background: linear-gradient(45deg, #FBC7F7,#FBC7F7 ,#FF85B3, #F806CC,#A91079,#570A57, #2E0249, #371B58, #4C3575, #5B4B8A, #7858A6, #A85CF9		 );
 	background-size: 300% 300%;
 	animation: colors 10s ease infinite ;
 }
