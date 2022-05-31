@@ -10,7 +10,9 @@
 </head>
 
     <body class="gradiend">
-	
+
+        <a href="/index/index.html"><button id="botao_voltar"> voltar </button></a>
+        
         <main>
             
             <div class="box">
@@ -19,20 +21,20 @@
     
                     <fieldset>
                         
-                        <legend><b>Fórmulário de Clientes</b></legend>
+                        <legend><b>Fórmulário de Pessoa Jurudica</b></legend>
                         
                         <br>
     
                         <div class="inputBox">
                             <input type="text" name="nome" id="nome" class="inputUser" required>
-                            <label for="nome" class="labelInput">Nome completo</label>
+                            <label for="nome" class="labelInput">Nome da Empresa</label>
                         </div>
                         
                         <br><br>
     
                         <div class="inputBox">
                             <input type="text" name="email" id="email" class="inputUser" required>
-                            <label for="email" class="labelInput">Email</label>
+                            <label for="email" class="labelInput">Email Institucional</label>
                         </div>
     
                         <br><br>
@@ -42,31 +44,25 @@
                             <label for="telefone" class="labelInput">Telefone</label>
                         
                         </div>
+
+                        <br><br>
                         
-                        <p>Sexo:</p>
-                        <input type="radio" id="feminino" name="genero" value="feminino" required>
-                        <label for="feminino">Feminino</label>
-    
-                        <br>
-                    
-                        <input type="radio" id="masculino" name="genero" value="masculino" required>
-                        <label for="masculino">Masculino</label>
-    
-                        <br>
-    
-                        <input type="radio" id="outro" name="genero" value="outro" required>
-                        <label for="outro">Outro</label>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">CEP</label>
+                        
+                        </div>
                         
                         <br><br>
     
-                        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                        <label for="data_nascimento"><b>Data de fundação</b></label>
                         <input type="date" name="data_nascimento" id="data_nascimento" required>
                         
                         <br><br><br>
                         
                         <div class="inputBox">
                             <input type="text" name="CEP" id="CEP" class="inputUser" required>
-                            <label for="CEP" class="labelInput">CEP</label>
+                            <label for="CEP" class="labelInput">CNPJ</label>
                         </div>
     
                         <br><br>
@@ -75,14 +71,7 @@
                             <input type="text" name="endereco" id="endereco" class="inputUser" required>
                             <label for="endereco" class="labelInput">Endereço</label>
                         </div>
-    
-                        <br><br>
-                        
-                        <div class="inputBox">
-                            <input type="text" name="CPF" id="CPF" class="inputUser" required>
-                            <label for="CPF" class="labelInput">CPF</label>
-                        </div>
-    
+
                         <br><br>
 
                         <label for="renda" class="files">Comprovante de renda</label>

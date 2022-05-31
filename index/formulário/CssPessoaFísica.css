@@ -106,3 +106,59 @@ legend{
 	background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
 }
 
+button{
+    position: relative;
+    left: 24%;
+    bottom:-25px;
+    background-color: green;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: solid black;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    box-shadow: #094c66 4px 4px 0px;
+    transition: transform 150ms, box-shadow 150ms;
+
+}
+
+button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+
+.botao_voltar{
+
+	position: relative;
+	text-decoration: none;
+    left: 24%;
+    bottom:-25px;
+    font-size: medium;
+	color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: solid black;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    box-shadow: #094c66 4px 4px 0px;
+    transition: transform 150ms, box-shadow 150ms;
+
+}
+
+button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+a{
+	text-decoration: none;
+	color:white
+}
